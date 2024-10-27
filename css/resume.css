@@ -21,7 +21,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url('images/pexels-nullxtract-3047470.jpg');
+    background-image:url('../images/pexels-nullxtract-3047470.jpg');
 
 }
 
@@ -535,7 +535,7 @@ nav ul li a:hover::after {
     #Service-title {
         font-size: 32px;
         color: #ff004f;
-        margin-top: 85px;
+        margin-top:44px;
     }
 
     .service-list {
@@ -552,7 +552,7 @@ nav ul li a:hover::after {
     .sub-work {
         font-size: 30px;
         color: #ff004f;
-        margin-top: -10px;
+        margin-top: -25px;
     }
 
     .work-list {
