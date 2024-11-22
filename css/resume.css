@@ -133,6 +133,7 @@ nav ul li a:hover::after {
 #about {
     background-color: black;
     font-family: 'Poppins', 'sans-serif';
+    padding:50px 0;
 }
 
 .side {
@@ -142,19 +143,26 @@ nav ul li a:hover::after {
 }
 
 .about-col-1 {
-    flex-basis: 35%;
+    flex-basis: 38%;
 }
 
 .about-col-1 img {
     background-position: cover;
-    height: 77%;
+    height:74%;
     width: 100%;
+    max-width:100%;
     border-radius: 35px;
+}
+
+.about-text {
+    color: #f8f8f8;
+    font-size: 15px;
 }
 
 #Abt_head {
     font-size: 40px;
     color: white;
+     margin-bottom: 20px;
 }
 
 .about-col-2 {
@@ -162,7 +170,7 @@ nav ul li a:hover::after {
     background: #262626;
     border-radius: 35px;
     padding: 20px 35px;
-    height: 69%;
+    height: 80%;
 }
 
 .templates {
@@ -443,7 +451,6 @@ nav ul li a:hover::after {
 .btn.btn2:hover {
     background: #ff004f;
 }
-
 /*--------------------css for small screen--------------*/
 
 #Open,
@@ -456,7 +463,7 @@ nav ul li a:hover::after {
         width: 315px;
         height: 315px;
         margin-top: -105px;
-        margin-left: 12px; /* Center the image horizontally */
+        margin-left: 12px;
     }
 
     .header-text {
@@ -590,3 +597,4 @@ nav ul li a:hover::after {
         font-size: 14px;
     }
 }
+
