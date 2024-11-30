@@ -7,6 +7,8 @@
     <title>Mridhul-portfolio</title>
     <link rel="icon" class="fas fa-infinity logo">
     <script src="https://kit.fontawesome.com/85f8fd4259.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
@@ -49,8 +51,13 @@
 
             <div class="about-col-2">
                 <h1 id="Abt_head">About Me</h1>
-                <p style="color:#f8f8f8;font-size:15px;">
-                    I am a Python Django Full Stack Developer experienced in building responsive, secure web applications using Python, Django, and front-end technologies (HTML, CSS, JavaScript, Bootstrap). Skilled in payment integration and database management. Known for a collaborative, problem-solving approach and attention to detail. Skilled Full Stack Developer with expertise in Python, Django, and front-end technologies.
+                <p id="about-p">
+                    I am a Python Django Full Stack Developer experienced
+                    in building responsive, secure web applications using Python,
+                    Django, and front-end technologies (HTML, CSS, JavaScript, Bootstrap).
+                    Skilled in payment integration and database management. Known for a collaborative,
+                    problem-solving approach and attention to detail. Skilled Full Stack Developer with
+                    expertise in Python, Django, and front-end technologies.
                 </p>
 
                 <div class="templates">
@@ -182,7 +189,7 @@
 
 <div id="contact">
     <div class="row">
-        <div class="contact-left">
+        <div class="contact-left col">
             <h1 class="sub-title">CONTACT ME</h1>
             <p><span><i class="fa-solid fa-envelope"></i></span>mridhulmaddy@gmail.com</p>
             <p><span><i class="fa-solid fa-mobile"></i></span>70347977888</p>
@@ -194,9 +201,9 @@
             <a href="images/download/Mridhul-Python_Developer_Resume (1).pdf" download class="btn btn2">Download CV</a>
         </div>
 
-        <div class="contact-right">
-            <form>
-                <input type="text" name="name" placeholder="Enter your name">
+        <div class="contact-right col">
+            <form id="form">
+                <input type="text" name="name" id="name" placeholder="Enter your name">
                 <input type="email" name="email" placeholder="Enter your Email">
                 <textarea name="address" rows="5" placeholder="Address"></textarea>
                 <button type="submit" class="submit">Submit</button>

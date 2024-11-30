@@ -164,6 +164,10 @@ nav ul li a:hover::after {
     color: white;
      margin-bottom: 20px;
 }
+ #about-p{
+        color:#f8f8f8;
+        font-size:15px;
+ }
 
 .about-col-2 {
     flex-basis: 60%;
@@ -458,28 +462,22 @@ nav ul li a:hover::after {
     display: none;
 }
 
-@media (max-width: 600px) {
-    #Head {
-        width: 315px;
-        height: 315px;
-        margin-top: -105px;
-        margin-left: 12px;
-    }
+@media (min-width:250px) and (max-width: 600px)  {
 
     .header-text {
         margin-top: 100px;
     }
 
     .header-text p {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     #header_hi {
-        font-size: 31px;
+        font-size: 30px;
     }
 
     #mrd {
-        font-size: 36px;
+        font-size: 34px;
     }
 
     nav #Open,
@@ -492,7 +490,7 @@ nav ul li a:hover::after {
     nav ul {
         background: #ff004f;
         position: fixed;
-        right: -130px;
+        right:50px;
         top: 0;
         width: 130px;
         height: 310px;
@@ -515,38 +513,69 @@ nav ul li a:hover::after {
         left: 25px;
         cursor: pointer;
     }
+    #Head{
+         width:350px;
+         height:350px;
+         margin-right:25px;
+         margin-top:-100px;
+    }
 
     /*---------About-------*/
     #Abt_head {
         font-size: 25px;
     }
+    .about-col-1{
+        flex-basis:100%;
+    }
 
     #About-img {
-        width: 320px;
-        height: 380px;
-        margin-top: 10px;
-        margin-left: 75px;
+        width:88%;
+        height:88%;
+        margin-top:-10px;
+        margin-left:27px;
+    }
+    #about-p{
+        color:#f8f8f8;
+        font-size:11px;
     }
 
     .about-col-2 {
-        width: 450px;
+        flex-basis:100%;
         margin-top: 35px;
-        margin: right: 8px;
+        width:350px;
+
+    }
+    .tab-links{
+        font-size:15px;
+    }
+    .about-col-2 ul li {
+         font-size: 14px;
+    }
+    #education ul li h5{
+         font-size: 13px;
+
+    }
+     #certificate ul li h5{
+         font-size: 13px;
+
     }
 
-    .tab-links {
-        font-size: 18px;
-    }
 
     /*--------services--------*/
+
+    #services{
+       width:100%;
+       padding:2px 2px;
+    }
     #Service-title {
-        font-size: 32px;
+        font-size:30px;
         color: #ff004f;
         margin-top:44px;
+        margin-left:100px;
     }
 
     .service-list {
-        margin-left: -45px;
+        margin-left:55px;
         width: 320px;
         font-size: 17px;
     }
@@ -556,15 +585,20 @@ nav ul li a:hover::after {
     }
 
     /*--------my works-----*/
+    #portfolio{
+        padding:2px 2px;
+    }
     .sub-work {
-        font-size: 30px;
+       font-size:30px;
         color: #ff004f;
-        margin-top: -25px;
+        margin-top:35px;
+        margin-left:115px;
     }
 
     .work-list {
-        margin-left: -75px;
+        margin-left:55px;
         width: 320px;
+        font-size: 17px;
     }
 
     .layer h2 h5 {
@@ -588,13 +622,33 @@ nav ul li a:hover::after {
         font-size: 22px;
     }
 
-    .contact-left,
-    .contact-right {
-        flex-basis: 100%;
-    }
+  /*-----------Contact----------*/
 
-    .copyright h6 {
-        font-size: 14px;
-    }
+  .sub-title{
+
+        font-size:25px;
+        color: #ff004f;
+        margin-top:120px;
+        margin-left:20px;
+
+  }
+
+  .contact{
+      margin-top:120px;
+  }
+
+  .contact-left{
+      flex-basis:100%;
+  }
+
+  .contact-right{
+      flex-basis:100%;
+      width:100%;
+  }
+   #form{
+       width:100%;
+
+   }
+
 }
 
